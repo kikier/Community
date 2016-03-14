@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    >
+<TextView android:textSize="15sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:id="@+id/name"
+    android:text="是是是"
+    android:background="#ffffffff"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    />
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.NewsCenterActivity"
+    android:orientation="vertical">
+    <include layout="@layout/head_ad"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="小区公告"
+            android:onClick="cut"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_weight="1"
+            android:background="#FF0000FF"
+            android:id="@+id/tv_notice" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="本土新闻"
+            android:onClick="cut"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:background="#ffe96d"
+            android:layout_weight="1"
+            android:id="@+id/tv_local_news" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="美食信息"
+            android:onClick="cut"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:background="#ffe96d"
+            android:layout_weight="1"
+            android:id="@+id/tv_food" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/news_list"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

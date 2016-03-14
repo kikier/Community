@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kikier.community.view.PropertyActivity"
+    android:orientation="vertical">
+    <include layout="@layout/head_ad"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="办事指南"
+            android:onClick="workGuide"
+            android:textSize="16sp"
+            android:id="@+id/button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="丢三落四"
+            android:onClick="lostAndFound"
+            android:textSize="16sp"
+            android:id="@+id/button2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="邻里互动"
+            android:onClick="interact"
+            android:textSize="16sp"
+            android:id="@+id/button3" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="小区新闻"
+
+        android:id="@+id/textView"
+        android:textColor="#1d1d1d"
+        android:textSize="18sp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

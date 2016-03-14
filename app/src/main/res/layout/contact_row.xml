@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#d2d2d2"
+        android:text="最热搜索"
+        android:textSize="16sp"
+        android:textColor="#ff4f14"
+        android:gravity="center_vertical"
+        android:id="@+id/contact_row_type" />
+
+    <com.kikier.community.myview.MyGridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="1dp"
+        android:verticalSpacing="1dp"
+        android:stretchMode="columnWidth"
+        android:layout_margin="9dp"
+        android:numColumns="3"
+        android:id="@+id/contact_grid" />
+
+</LinearLayout>
