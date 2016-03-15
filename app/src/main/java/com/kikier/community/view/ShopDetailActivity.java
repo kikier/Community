@@ -2,7 +2,6 @@ package com.kikier.community.view;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -10,7 +9,7 @@ import android.widget.TextView;
 
 import com.kikier.community.R;
 
-public class ShopDetailActivity extends AppCompatActivity {
+public class ShopDetailActivity extends BaseActivity {
     ImageView pic;
     TextView name;
     TextView time;

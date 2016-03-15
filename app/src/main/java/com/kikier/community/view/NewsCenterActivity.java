@@ -27,7 +27,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 
-public class NewsCenterActivity extends AppCompatActivity {
+public class NewsCenterActivity extends BaseActivity {
     ListView list;
     TextView tv_notice;
     TextView tv_local_news;

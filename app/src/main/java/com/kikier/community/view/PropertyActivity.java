@@ -1,6 +1,5 @@
 package com.kikier.community.view;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
@@ -13,7 +12,7 @@ import com.kikier.community.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class PropertyActivity extends AppCompatActivity {
+public class PropertyActivity extends BaseActivity {
     ListView list;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

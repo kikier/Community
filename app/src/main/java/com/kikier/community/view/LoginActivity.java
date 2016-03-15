@@ -1,19 +1,17 @@
 package com.kikier.community.view;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import com.kikier.community.R;
 
 import java.io.DataOutputStream;
-import java.io.InputStream;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends BaseActivity {
     EditText edt_userName;
     EditText edt_pwd;
     @Override
@@ -39,10 +37,18 @@ public class LoginActivity extends AppCompatActivity {
             if(huc.getResponseCode()==HttpURLConnection.HTTP_OK){
 //               InputStream is = huc.getInputStream();
 //               is.read
-
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    public void back(View v){
+        finish();
+    }
+
+    public void edit(View v){
+        Intent it = new Intent(this,RegisterActivity.class);
+        startActivity(it);
+        finish();
     }
 }

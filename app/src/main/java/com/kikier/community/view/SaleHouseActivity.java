@@ -1,10 +1,8 @@
 package com.kikier.community.view;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,7 +13,7 @@ import com.kikier.community.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class SaleHouseActivity extends AppCompatActivity {
+public class SaleHouseActivity extends BaseActivity {
     TextView head_title;
     ListView list;
     @Override

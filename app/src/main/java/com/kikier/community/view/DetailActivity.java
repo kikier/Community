@@ -1,7 +1,6 @@
 package com.kikier.community.view;
 
 import android.content.Intent;
-import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,7 +13,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 
-public class DetailActivity extends AppCompatActivity {
+public class DetailActivity extends BaseActivity {
     TextView tv_author;
     TextView tv_time;
     TextView tv_content;

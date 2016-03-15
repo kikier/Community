@@ -1,13 +1,12 @@
 package com.kikier.community.view;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
 import com.kikier.community.R;
 
-public class AntertainmentActivity extends AppCompatActivity {
+public class AntertainmentActivity extends BaseActivity {
     TextView head_title;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,8 +1,7 @@
 package com.kikier.community.view;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -14,7 +13,7 @@ import com.kikier.community.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class UsedMarketActivity extends AppCompatActivity {
+public class UsedMarketActivity extends BaseActivity {
     TextView head_title;
     ListView list;
     ArrayList<HashMap<String,Object>> data;
@@ -35,9 +34,14 @@ public class UsedMarketActivity extends AppCompatActivity {
                 }
             }
         }).start();
-
     }
 
+
+
+    public void edit(View v){
+        Intent it =new Intent(this,UsedMarketPublishActivity.class);
+        startActivity(it);
+    }
 
     public void back(View v){
         finish();

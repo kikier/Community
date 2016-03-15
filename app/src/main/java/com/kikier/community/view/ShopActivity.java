@@ -1,7 +1,6 @@
 package com.kikier.community.view;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -9,7 +8,6 @@ import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.kikier.community.R;
 import com.kikier.community.ShopListAdapter;
@@ -17,7 +15,7 @@ import com.kikier.community.ShopListAdapter;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class ShopActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
+public class ShopActivity extends BaseActivity implements AdapterView.OnItemClickListener{
     TextView head_title;
     GridView grid;
     ListView list;
@@ -55,6 +53,8 @@ public class ShopActivity extends AppCompatActivity implements AdapterView.OnIte
         }
         ShopListAdapter adapter = new ShopListAdapter(this,listData);
         list.setAdapter(adapter);
+        list.setDividerHeight(10);
+        list.setMinimumHeight(90);
     }
 
     public void init(){

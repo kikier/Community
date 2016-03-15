@@ -2,9 +2,8 @@ package com.kikier.community.view;
 
 import android.content.Intent;
 import android.content.res.TypedArray;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
@@ -13,7 +12,7 @@ import com.kikier.community.AdThread;
 import com.kikier.community.MainAdapter;
 import com.kikier.community.R;
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends BaseActivity{
     static ViewPager  pager;
     GridView grid;
 

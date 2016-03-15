@@ -38,7 +38,7 @@ public class MainAdapter extends BaseAdapter{
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        convertView = LayoutInflater.from(context).inflate(R.layout.grid_item,parent,false);
+        convertView = LayoutInflater.from(context).inflate(R.layout.main_grid_item,parent,false);
         ImageView img = (ImageView) convertView.findViewById(R.id.grid_img);
         TextView tv = (TextView) convertView.findViewById(R.id.grid_tv);
         img.setImageResource(menuImg[position]);

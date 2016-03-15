@@ -1,11 +1,8 @@
 package com.kikier.community.view;
 
-import android.os.StrictMode;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.os.StrictMode;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.kikier.community.R;
 
@@ -13,12 +10,9 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLConnection;
 
-public class WeatherActivity extends AppCompatActivity {
+public class WeatherActivity extends BaseActivity {
     TextView city;
     TextView minTemp;
     TextView maxTemp;

@@ -10,15 +10,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.kikier.community.view.ShopDetailActivity;
 
-import org.w3c.dom.Text;
-
 import java.io.InputStream;
 import java.sql.Blob;
-import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
 

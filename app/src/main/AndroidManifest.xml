@@ -35,7 +35,9 @@
         <activity android:name=".view.LoginActivity" />
         <activity android:name=".view.WeatherActivity" />
         <activity android:name=".view.ContactDetailActivity" />
-        <activity android:name=".view.ShopDetailActivity"></activity>
+        <activity android:name=".view.ShopDetailActivity" />
+        <activity android:name=".view.UsedMarketPublishActivity" />
+        <activity android:name=".view.RegisterActivity"></activity>
     </application>
 
 </manifest>

@@ -1,22 +1,18 @@
 package com.kikier.community.view;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.kikier.community.ContactAdapter;
 import com.kikier.community.ContactDetailAdapter;
 import com.kikier.community.R;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class ContactDetailActivity extends AppCompatActivity {
+public class ContactDetailActivity extends BaseActivity {
     TextView title;
     ListView list;
     @Override

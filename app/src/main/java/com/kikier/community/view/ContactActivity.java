@@ -13,7 +13,7 @@ import com.kikier.community.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class ContactActivity extends AppCompatActivity {
+public class ContactActivity extends BaseActivity {
     TextView head_title;
     ListView listView;
     @Override
