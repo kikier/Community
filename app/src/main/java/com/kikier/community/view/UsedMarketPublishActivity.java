@@ -20,6 +20,7 @@ public class UsedMarketPublishActivity extends BaseActivity {
     final int PICK_PIC = 314;
     SimpleAdapter adapter;
     ArrayList<HashMap<String,Object>> data;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
