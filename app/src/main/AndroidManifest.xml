@@ -29,7 +29,7 @@
         <activity android:name=".view.ContactActivity" />
         <activity android:name=".view.ShopActivity" />
         <activity android:name=".view.UsedMarketActivity" />
-        <activity android:name=".view.AntertainmentActivity" />
+        <activity android:name=".view.RecreationActivity" />
         <activity android:name=".view.DiscountActivity" />
         <activity android:name=".view.AboutUsActivity" />
         <activity android:name=".view.LoginActivity" />

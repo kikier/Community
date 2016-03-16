@@ -67,7 +67,7 @@ public class MainActivity extends BaseActivity{
                         it = new Intent(MainActivity.this,UsedMarketActivity.class);
                         break;
                     case 6:
-                        it = new Intent(MainActivity.this,AntertainmentActivity.class);
+                        it = new Intent(MainActivity.this,RecreationActivity.class);
                         break;
                     case 7:
                         it = new Intent(MainActivity.this,DiscountActivity.class);
